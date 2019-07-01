@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+  <default-config>
+     <property name="driverClass">com.mysql.jdbc.Driver</property>    
+     <property name="jdbcUrl">jdbc:mysql:///0620</property>    
+     <property name="user">root</property>    
+     <property name="password">123456</property>     
+     <property name="maxPoolSize">300</property>
+     <!-- 超过时间限制是否回收 -->
+<property name="removeAbandoned" value="true" />
+
+<!-- 超过时间限;单位为秒。180秒=3分钟 -->
+<property name="removeAbandonedTimeout" value="180" />
+
+<!-- 关闭abandoned连接是输出错误日志 -->
+<property name="logAbandoned" value="true" />
+   </default-config>
+   </c3p0-config>

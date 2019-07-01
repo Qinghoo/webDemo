@@ -1,0 +1,721 @@
+/* 顶端导航栏CSS */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav,
+.nav-bot {
+    width: 100%;
+}
+
+.nav {
+    height: 89px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #FFFFFF;
+}
+
+.nav-top {
+    width: 88%;
+    height: 52px;
+    margin-left: 6%;
+}
+
+.nav-bot {
+    height: 37px;
+    line-height: 37px;
+    background-color: black;
+}
+
+.log {
+    float: left;
+}
+
+.log-box {
+    width: 200px;
+    height: 52px;
+    float: left;
+    text-align: center;
+    line-height: 52px;
+}
+
+.log-box a {
+    font-size: 12px;
+    color: #000000;
+    font-family: "Microsoft YaHei";
+    text-decoration: none;
+    margin: 0 5px;
+}
+.log-box span{
+    font-size: 12px;
+}
+
+.nav-menu-top {
+    float: right;
+    margin-right: 30px;
+}
+
+.nav-menu-top li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+.nav-menu-top li a{
+    text-decoration: none;
+    color: #000000 ;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+
+
+
+
+
+.nav-bot-in {
+    width: 88%;
+    height: 37px;
+    padding-left: 6%;
+}
+
+#all-style {
+    width: 210px;
+    height: 37px;
+    float: left;
+    clear: left;
+    background-color: #D6211A;
+    padding: 0 2px 0 2px;
+    position: relative;
+    top: -4px;
+}
+
+#all-style a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: "Microsoft YaHei";
+    margin-left: 25px;
+}
+
+
+
+.nav-menu-bot {
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -4px;
+}
+
+.nav-menu-bot li {
+    float: left;
+    width: 62px;
+    height: 37px;
+    padding: 0 7px 0 7px;
+    text-align: center;
+    line-height: 37px;
+}
+
+.nav-menu-bot li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+
+
+
+.nav-bot-in input {
+    border-radius: 7px;
+    border: 1px solid #DBDBDB;
+    width: 200px;
+    height: 25px;
+    position: relative;
+    left: 35px;
+    bottom: 10px;
+}
+
+#tianchong{
+    width: 100%;
+    height: 89px;
+    position: relative;
+    top: 0;
+}
+
+
+/* 二级菜单CSS */
+#all-style-submenu{
+    position: fixed;
+    top:89px;
+    left: 6%;
+    width: 214px;
+    height: 540px;
+    z-index: 10;
+    background-color: #000000;
+    display: none;
+    /* opacity: 0.7; */
+}
+
+#all-style-submenu ul{
+    list-style-type: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#all-style-submenu li{
+    padding: 7px 15px 8px 15px;
+}
+
+.style-title,.style-normal{
+    height: 22px;
+}
+.style-normal{
+	display: inline;
+}
+.style-title a{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    opacity: 1;
+    text-decoration: none;
+}
+
+.style-normal a{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    opacity: 1;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+
+
+.submenu{
+    width: 637px;
+    height: 337px;
+    position: fixed;
+    top: 89px;
+    z-index: 10;
+    background-color: #FFFFFF;
+    display: none;
+}
+.submenu-left{
+    width: 220px;
+    height: 298px;
+    /* background-color: aquamarine; */
+    float: left;
+    margin-top: 20px;
+    border-right: 1px solid #eee;
+}
+.submenu-left img{
+    padding-left: 20px;
+}
+.submenu-right{
+    width: 416px;
+    height: 100%;
+    /* background-color: bisque; */
+    float: left;
+}
+.normal a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: #000000;
+    margin-right: 8px;
+}
+.title a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #000000;
+    margin-right: 8px;
+}
+.title{
+    border-bottom: 1px dashed #ddd;
+    margin-top: 10px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+
+
+/* 右侧固定栏 */
+#right-fix{
+    position: fixed;
+    right: 0px;
+    width: 30px;
+    height: 580px;
+    background-color: #000000;
+    z-index: 10;
+}
+#right-main{
+    width: 30px;
+    height: 400px;
+    position: fixed;
+    top: 250px;
+}
+#shopcart{
+    width: 30px;
+    height: 112px;
+}
+#shopcart-border{
+    width: 20px;
+    height: 80px;
+    padding: 15px 0px;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    position: relative;
+    left: 5px;
+}
+#shopcart-border img{
+    width: 23px;
+    height: 23px;
+    position: relative;
+    right: 1px;
+}
+.text{
+    text-align: center;
+}
+.text a{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: "Microsoft YaHei";
+    text-decoration: none;
+}
+.icon{
+    width: 30px;
+    height: 35px;
+    margin-top: 13px;
+}
+.icon img{
+    width: 22px;
+    height: 22px;
+    margin: 6px 0 0 5px;
+}
+
+
+.tankuang{
+    width: 120px;
+    height: 35px;
+    position: fixed;
+    right: 35px;
+    background-color: #494949;
+    z-index: 10;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    line-height: 35px;
+    display: none;
+}
+.sanjiao{
+    color: #494949;
+    font-size: 40px;
+    position: fixed;
+    right: 25px;
+    z-index: 11;
+    display: none;
+}
+.erweima{
+    width:240px;
+    height: 155px;
+    position: fixed;
+    right: 35px;
+    top:420px;
+    background-color: #FFFFFF;
+    display: none;
+}
+.erweima img{
+    position: relative;
+    left: 13px;
+    top: 10px;
+}
+.sanjiao1{
+    color: #FFFFFF;
+    font-size: 40px;
+    position: fixed;
+    right: 25px;
+    top: 510px;
+    z-index: 11;
+    display: none;
+}
+
+
+/* 定位栏 */
+#dingwei{
+    width: 88%;
+    margin: 25px 0px 15px 6%;
+}
+#dingwei a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    margin-right: 2px;
+}
+#dingwei span{
+    margin-right: 2px;
+}
+
+
+/* 主体-上部 */
+#main-top{
+    width: 88%;
+    height: 700px;
+    margin-left: 6%;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+#mt-left{
+    width: 100px;
+    height: 600px;
+    float: left;
+}
+.jiantou{
+    font-size: 50px;
+    position: relative;
+    left: 25px;
+}
+.mt-left-img{
+    width: 98px;
+    height: 98px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: 1px solid #DBDBDB;
+}
+
+#mt-middle{
+    width: 600px;
+    height: 600px;
+    float: left;
+    margin: 0 26px 0 18px;
+    border: 2px solid #DBDBDB;
+}
+.mt-mid-img{
+    width: 600px;
+    height: 600px;
+}
+
+
+#mt-right{
+    width: 437px;
+    height: 500px;
+    float: left;
+}
+#pname{
+    color: #000000;
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    margin-top: 30px;
+}
+#fivestar{
+    height: 30px;
+    margin: 20px 0;
+}
+#fivestar span{
+    float: right;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    margin-top: 4px;
+    color: #666464;
+}
+#price{
+    height: 40px;
+    margin: 30px 0;
+}
+#price span{
+    font-size: 28px;
+    font-family: "Microsoft YaHei";
+    color: #C40000;
+    margin-right: 5px;
+}
+#p1{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: #000000;
+    font-weight: bold;
+    margin: 100px 0 10px 0;
+}
+#p2{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #000000;
+}
+#pay{
+    margin-top: 30px;
+    height: 45px;
+}
+#pay span{
+    font-size: 15px;
+    font-family: "Microsoft YaHei";
+    color: #000000;
+    font-weight: bold;
+    float: left;
+    margin-top: 10px;
+}
+#pay select{
+    width: 53px;
+    float: left;
+    margin: 10px 15px 0 5px;
+}
+#cart,#mai{
+    width: 156px;
+    height: 45px;
+    margin-right: 8px;
+    float: left;
+    text-align: center;
+    background-color: #000000;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #FFFFFF;
+    line-height: 45px;
+}
+#mai{
+    background-color: #DD0000;
+}
+#cart a,#mai a{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* 主体-可能喜欢 */
+#main-like{
+    width: 88%;
+    height: 400px;
+    margin-left: 6%;
+    padding-top: 50px;
+}
+#like-title{
+    width: 100%;
+    color: #000000;
+    font-size: 38px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+}
+#like-img{
+    width: 100%;
+    margin-top: 50px;
+}
+#like-img img{
+    width: 220px;
+    height: 220px;
+    margin-right: 11px;
+    border: 1px solid #DBDBDB;
+}
+
+
+/* 主体-商品展示 */
+#main-product{
+    width: 88%;
+    margin-left: 6%;
+}
+#xijie{
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+}
+#xiaosanjiao{
+    width: 50px;
+    height: 50px;
+    font-size: 60px;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+#xijie-img{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 底部CSS */
+#footer{
+    width: 100%;
+    height: 375px;
+    border-top: 3px #e2e2e2 solid;
+    position: relative;
+    top: 40px;
+}
+#footer-main{
+    width: 88%;
+    height: 265px;
+    margin: 35px 0 30px 6%;
+}
+#footer-left{
+    width: 800px;
+    height: 100%;
+    border-right: 1px solid #DBDBDB;
+    float: left;
+}
+.f-ul{
+    margin-right:155px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0; 
+    float: left;
+}
+.last-ul{
+    margin-right:70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0; 
+    float: left;
+}
+#footer-left ul li{
+    list-style-type: none;
+    height: 30px;
+}
+#footer-left ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+#first-li{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#footer-left ul li a:hover{
+    color: red;
+}
+#footer-right{
+    width: 385px;
+    height: 265px;
+    float: left;
+}
+#ask{
+    color: #000000;
+    font-size: 16px;
+    font-family: "Microsotf YaHei";
+    font-weight: bold;
+    margin: 5px 0 10px 100px;
+}
+#tel{
+    width: 250px;
+    height: 40px;
+    font-size: 34px;
+    margin: 5px 0 10px 100px;
+}
+#service{
+    margin: 15px 0 10px 100px;
+    width: 137px;
+    height: 27px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+}
+#service:hover{
+    background-color: red;
+}
+#service a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+#service:hover a{
+    color: #FFFFFF;
+}
+#wechat{
+    margin: 15px 0 10px 100px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+#wechat-img{
+    margin: 15px 0 10px 100px;
+}
+#footer-bot{
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+}
+.copyright{
+    width: 140px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: "Microsotf YaHei";
+    float: left;
+    line-height: 60px;
+    margin-left: 5.8%;
+}
+.company-name{
+    width: 150px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: "Microsotf YaHei";
+    float: left;
+    line-height: 60px;
+    margin-left: 10px;
+}
+#police{
+    float: left;
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+.company-icp{
+    width: 150px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: "Microsotf YaHei";
+    float: left;
+    line-height: 60px;
+    margin-left: 48px;
+}
+#bot-ul{
+    float: right;
+    margin-right: 70px;
+}
+#bot-ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+#bot-ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: "Microsotf YaHei";
+}
+#bot-ul li a:hover{
+    color:red;
+}

@@ -1,0 +1,109 @@
+/* 主体部分 */
+body{
+	margin: 0;
+	padding: 0;
+}
+#main{
+	width: 79%;
+	height: 800px;
+	margin: 50px auto;
+	padding-top: 20px;
+}
+
+/* 每个收获地址盒子样式 */
+.box{
+	width: 306px;
+	height: 187px;
+	margin: 10px 0px 20px 44px;
+	float:left;
+	/* background-color: #FFE996; */
+	background-image:url("../img/信封.png");
+	background-size: 306px 187px;
+	border: 1px solid #DBDBDB;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/* 盒子中具体样式 */
+.img{
+	width: 15px;
+	height: 15px;
+	float: right;
+	margin: 10px 15px 0px 0px;
+}
+.address{
+	color: #333333;
+	font-size: 16px;
+    font-family: "Microsoft YaHei";
+	margin: 20px 0px 0px 20px;
+	padding-left:30px;
+	padding-right:20px;
+	width: 66%;
+	height: 60px;
+	line-heigh:60px;
+}
+.tel{
+	margin: 35px 0px 0px 20px;
+	padding-left:10px;
+	width: 80%;
+	height: 25px;
+}
+.tel span{
+	float: right;
+	color: #333333;
+	font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+.name{
+	margin: 5px 0px 0px 20px;
+	padding-left:10px;
+	width: 80%;
+	height: 30px;
+}
+.name span{
+	float: right;
+	color: #333333;
+	font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+.name label{
+	color: #333333;
+	font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+.name a{
+	color: #D6211A;
+	font-size: 15px;
+    font-family: "Microsoft YaHei";
+    position: relative;
+    top:2px;
+}
+
+.img,.xiugai,#xuanze{
+	display: none;
+	cursor: default;
+}
+
+/* 添加收获地址按钮 */
+#add{
+	display:block;
+	clear: both;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	text-align:center;
+	border: 1px solid #DBDBDB;
+	border-radius: 8px;
+	position: relative;
+	margin: 10px auto;
+	text-decoration: none;
+	color: #333333;
+	font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+
+
+
+
+
+
